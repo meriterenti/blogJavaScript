@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>blogJS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <button id='createNewPost' class='button'>Create New Post</button>
+    <div id='createdMessage'><p id='thankYou'>Congratulations !! Your post is created !</p></div>
+    <div id='popup'>
+      <form id='newPost' onsubmit="return sendPost()"> <p id='close'>X</p>
+        <input type='text' class='yourName' id='title' placeholder='Post Title .. ' title="Minimum 3 characters required"  minlength="3" required>
+        <br />
+        <input type='text' class='yourText' id='newcontent' placeholder='what is on your mind..' title="Minimum 3 characters required"  minlength="3" required>
+        <br />
+        <input type='submit' class='button' id='createPost' value='Create'>
+      </form>
+    </div>
+    <div id="posts">  </div>
+    <button id='loadMore' class='button' onclick="loadMore()">Load more</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,102 @@
+#posts {
+  padding-left: 20px;
+}
+
+.showHide, .showComments {
+  text-transform: capitalize;
+  color: #424f47;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.showHide{
+  background-color: #ffeb3b;
+  padding: 20px;
+  color: #767676;
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.content, .showComments, .commentName{
+    line-height: 2em;
+}
+
+.postContent, .commentsBlock, #popup, #createdMessage{
+  display: none;
+}
+
+.commentName{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.commentBody {
+  color: #acacac;
+}
+
+.button, .showComments, #close{
+  color: white;
+  background-color: #55d1b4;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#close{
+  width: 20px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 97%;
+}
+
+.yourName, .yourEmail, .yourText, .button{
+  margin-top: 20px;
+}
+
+.yourName, .yourEmail, .yourText{
+  background-color: #ececec;
+  border: none;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  color: #a8a8a8;
+}
+
+#loadMore, #createNewPost{
+  margin-left: 20px;
+}
+
+#userComment{
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+#popup, #createdMessage{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+#newPost, #thankYou{
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+}
+
+#title, #newcontent, #close, #createPost{
+  border: 1px solid #888;
+  color: #55d1b4;
+  background-color: rgba(174,167,167,0.3)
+}
+
+#title, #newcontent{
+  width: 99%;
+}
